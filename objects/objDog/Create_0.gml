@@ -13,6 +13,10 @@ poiRange = 15;
 sniffing = false;
 pausing = true;
 
+// Offsets used by objLeash
+leashOffsetX = 44;
+leashOffsetY = 40;
+
 // Alarm timers
 pauseTime = 30 * 3; // 3 seconds at 30 fps
 sniffTime = 30 * 3; // 3 seconds at 30 fps

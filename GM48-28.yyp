@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "efc1eac0-ad11-4c6d-8136-a5c199927e75",
+            "Value": {
+                "id": "92c06ed8-8fb0-4004-a484-6103f303129e",
+                "resourcePath": "objects\\objLeash\\objLeash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f614b050-73c7-482e-87c4-6221d5c95eb5",
             "Value": {
                 "id": "179791aa-b147-44d3-9442-c14b99b9aa36",

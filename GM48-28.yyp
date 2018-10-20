@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "5af1037d-63c1-407c-b05d-bfc5ab04b249",
+            "Value": {
+                "id": "cfea07ad-9c4d-499a-a59b-6966524d17b6",
+                "resourcePath": "sprites\\spriteHydrant\\spriteHydrant.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c590e7d-748a-4df5-b444-7b81dbc09348",
             "Value": {
                 "id": "15626590-3215-4d4f-ba5e-4fec1b23d14f",
@@ -100,6 +108,14 @@
                 "id": "5622ccc1-281d-43fe-be21-ff4aaf529e21",
                 "resourcePath": "views\\6ddd5f36-28cb-41c2-9328-c35cf67f6e75.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f4d8d1d-625e-44dd-874b-7aad7c1df2d6",
+            "Value": {
+                "id": "a867d3e8-a84d-4bad-80e8-4a84768df942",
+                "resourcePath": "objects\\objPointOfInterest\\objPointOfInterest.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -148,6 +164,14 @@
                 "id": "32db3f76-a626-4bc3-a6e9-77df0e147b4c",
                 "resourcePath": "sprites\\spriteDog\\spriteDog.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b142bb2e-30d0-4361-a3c3-c5da4367cb42",
+            "Value": {
+                "id": "662234af-f376-45c4-96e8-20245c753c4b",
+                "resourcePath": "objects\\objHydrant\\objHydrant.yy",
+                "resourceType": "GMObject"
             }
         },
         {

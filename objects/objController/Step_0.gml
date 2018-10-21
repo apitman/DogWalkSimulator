@@ -7,3 +7,9 @@ if (global.debugMode && keyboard_check_pressed(vk_escape)) {
 if (keyboard_check_pressed(ord("R"))) {
 	room_restart();
 }
+
+if (global.debugMode || room == room_first) {
+	if (keyboard_check_pressed(vk_enter)) {
+		room_goto_next();
+	}
+}

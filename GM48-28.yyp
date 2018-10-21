@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "25425b20-aee1-405c-8813-3dd6445122d3",
+            "Value": {
+                "id": "d646c386-8434-4ab8-bac1-a82ed3030640",
+                "resourcePath": "rooms\\roomMainMenu\\roomMainMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2c05479d-29b0-4c11-ae9e-eadf08f5eb4f",
             "Value": {
                 "id": "bc44c0ea-faf2-4a68-88ff-31363060be06",
@@ -84,6 +92,14 @@
                 "id": "ed8b5cc3-899f-443f-ab3a-fa055c1c810b",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3d4e8f49-2e13-4941-a9e1-284fe8a4b86b",
+            "Value": {
+                "id": "00de4c0d-4642-4cfe-a369-1f47043b79f0",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -140,6 +156,14 @@
                 "id": "82f837e9-bb99-41df-8203-376a93b35810",
                 "resourcePath": "sprites\\spriteGarbage\\spriteGarbage.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "67f5107b-f5bb-426f-905a-1210751ca4f7",
+            "Value": {
+                "id": "82c1e333-1cbe-4ab6-ac40-9d3ce4241464",
+                "resourcePath": "rooms\\roomEnd\\roomEnd.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -210,8 +234,16 @@
             "Key": "8e357d24-a1df-4027-9f18-624b2bf435f5",
             "Value": {
                 "id": "b0dfc6d8-52b2-47f5-9697-589a47577347",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\roomTutorial\\roomTutorial.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8ee1f3d1-abe7-414c-bf78-afd5b9ad0ed8",
+            "Value": {
+                "id": "3cfa731a-d3c1-42f6-b290-1ab428fdccbd",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {

@@ -1,4 +1,5 @@
 /// @description Run end of level code
 
-//room_goto_next();
-room_restart();
+if (room_exists(room_next(room))) {
+	room_goto_next();
+}

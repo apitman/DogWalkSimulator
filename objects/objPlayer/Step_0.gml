@@ -36,16 +36,16 @@ if (up && !down) {
 	vspeed = 0;
 }
 
-// Window boundaries
+// Room boundaries
 if (x < 0 && hspeed < 0) {
 	hspeed = 0;
 }
-if (x >= window_get_width() - 64 && hspeed > 0) {
+if (x >= room_width - 64 && hspeed > 0) {
 	hspeed = 0;
 }
 if (y < 0 && vspeed < 0) {
 	vspeed = 0;
 }
-if (y >= window_get_height() - 64 && vspeed > 0) {
+if (y >= room_height - 64 && vspeed > 0) {
 	vspeed = 0;
 }

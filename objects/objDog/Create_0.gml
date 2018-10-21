@@ -17,8 +17,8 @@ leashOffsetX = 44;
 leashOffsetY = 40;
 
 // Alarm timers
-pauseTime = 30 * 3; // 3 seconds at 30 fps
-sniffTime = 30 * 3; // 3 seconds at 30 fps
+pauseTime = 30 * 1; // 1 second at 30 fps
+sniffTime = 30 * 2; // 2 seconds at 30 fps
 
 // Start by setting the pause timer
 alarm[0] = pauseTime;

@@ -9,7 +9,6 @@ runHVelocity = 30;
 runVVelocity = 15;
 leashRange = 350;
 poiRunRange = 250;
-poiRange = 15;
 sniffing = false;
 pausing = true;
 

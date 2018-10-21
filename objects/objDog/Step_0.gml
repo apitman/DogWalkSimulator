@@ -10,7 +10,7 @@ if (distance_to_object(instance_nearest(x, y, objPlayer)) > leashRange) {
 
 if (!is_undefined(pointOfInterest)) {
 	// Move toward point of interest if we are not already within 100px
-	if (distance_to_object(pointOfInterest) > poiRange) {
+	if (distance_to_object(pointOfInterest) > pointOfInterest.dogRange) {
 		var running = false;
 		var hVelocity = walkHVelocity;
 		var vVelocity = walkVVelocity;

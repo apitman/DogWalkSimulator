@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2ac9941a-50c6-4033-9367-48d15de81ff3",
+            "Value": {
+                "id": "f7b7ea28-3ec8-45a5-bf6f-9c666012c75b",
+                "resourcePath": "scripts\\scriptDrawScore\\scriptDrawScore.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2c05479d-29b0-4c11-ae9e-eadf08f5eb4f",
             "Value": {
                 "id": "bc44c0ea-faf2-4a68-88ff-31363060be06",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "8b19134c-3854-4709-8ac3-3b97f620697e",
+            "Value": {
+                "id": "092ea22d-9a2c-4587-a339-a0f19a5fb119",
+                "resourcePath": "scripts\\scriptDrawGameOver\\scriptDrawGameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8e357d24-a1df-4027-9f18-624b2bf435f5",
             "Value": {
                 "id": "b0dfc6d8-52b2-47f5-9697-589a47577347",
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "e08ddf7d-8b67-48a8-80de-9a3fe12b7e25",
+            "Value": {
+                "id": "c3885764-de01-454b-bca6-00fb0a99ef39",
+                "resourcePath": "scripts\\scriptDrawMainMenu\\scriptDrawMainMenu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "efc1eac0-ad11-4c6d-8136-a5c199927e75",
             "Value": {
                 "id": "92c06ed8-8fb0-4004-a484-6103f303129e",
@@ -392,7 +416,10 @@
         }
     ],
     "script_order": [
-        "c18582a5-fce3-4919-b870-6fba3d9c62c3"
+        "c18582a5-fce3-4919-b870-6fba3d9c62c3",
+        "2ac9941a-50c6-4033-9367-48d15de81ff3",
+        "e08ddf7d-8b67-48a8-80de-9a3fe12b7e25",
+        "8b19134c-3854-4709-8ac3-3b97f620697e"
     ],
     "tutorial": ""
 }

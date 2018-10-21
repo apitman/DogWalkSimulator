@@ -1,2 +1,1 @@
-/// Run level generation script
-scriptLevelGen();
+// Nothing

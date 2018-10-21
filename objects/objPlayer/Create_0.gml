@@ -10,4 +10,4 @@ leashOffsetX = 52;
 leashOffsetY = 32;
 
 // Used by objDog.step()
-dogRange = 5;
+dogRange = 10;

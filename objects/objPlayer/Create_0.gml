@@ -6,8 +6,8 @@ hvelocity = 11;
 vvelocity = 6;
 
 // Offsets used by objLeash
-leashOffsetX = 52;
-leashOffsetY = 32;
+leashOffsetX = 60;
+leashOffsetY = 60;
 
 // Used by objDog.step()
 dogRange = 10;

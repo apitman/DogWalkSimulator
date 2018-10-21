@@ -49,3 +49,29 @@ if (y < 0 && vspeed < 0) {
 if (y >= room_height - 64 && vspeed > 0) {
 	vspeed = 0;
 }
+
+if (hspeed == 0 && vspeed == 0) {
+	image_index = 0;
+	image_speed = 0;
+} else {
+	image_speed = 1;
+}
+
+switch (image_index) {
+	case 0:
+		leashOffsetX = 60;
+		leashOffsetY = 60;
+		break;
+	case 1:
+		leashOffsetX = 40;
+		leashOffsetY = 60;
+		break;
+	case 2:
+		leashOffsetX = 60;
+		leashOffsetY = 60;
+		break;
+	case 3:
+		leashOffsetX = 80;
+		leashOffsetY = 60;
+		break;
+}

@@ -6,5 +6,6 @@ other.image_speed = other.sniffAnimSpeed;
 other.pointOfInterest = undefined;
 other.alarm[1] = other.sniffTime;
 other.alarm[3] = -1;
+audio_play_sound(soundMunch1, 0, false);
 
 instance_destroy(self);

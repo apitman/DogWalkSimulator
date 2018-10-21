@@ -15,6 +15,7 @@ gettingCalled = false;
 distractionChance = 0.2;
 walkAnimSpeed = 1;
 sniffAnimSpeed = 1;
+playedLeashSnapSound = false;
 
 // Offsets used by objLeash
 leashOffsetX = 84;

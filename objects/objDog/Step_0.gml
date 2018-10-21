@@ -11,6 +11,11 @@ if (keyboard_check_pressed(vk_space)) {
 var closestPlayer = instance_nearest(x, y, objPlayer);
 //var followChance = random(1) > 0.25 && is_undefined(pointOfInterest) && pausing && (closestPlayer.hspeed != 0 || closestPlayer.vspeed != 0);
 if (gettingCalled || distance_to_object(closestPlayer) > leashRange) {
+	if (!playedLeashSnapSound && distance_to_object(closestPlayer) > leashRange) {
+		audio_play_sound(soundLeashSnap, 0, false);
+		playedLeashSnapSound = true;
+		alarm[4] = 30 * 0.5; // Wait 0.5 seconds before allowing this sound again
+	}
 	pointOfInterest = closestPlayer;
 	sprite_index = spriteDog;
 	image_speed = walkAnimSpeed;
@@ -71,6 +76,7 @@ if (!is_undefined(pointOfInterest)) {
 		if (chance < 0.2) {
 			// Start sniffing
 			sniffing = true;
+			audio_play_sound(soundSniff, 0, false);
 			sprite_index = spriteDogSniffing;
 			image_speed = sniffAnimSpeed;
 			alarm[1] = sniffTime;

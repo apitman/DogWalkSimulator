@@ -1,8 +1,17 @@
 /// @description Move, misc. behavior
 
-// If the player is too far away, run to player
-if (distance_to_object(instance_nearest(x, y, objPlayer)) > leashRange) {
-	pointOfInterest = instance_nearest(x, y, objPlayer);
+// Abstracted input
+var gettingCalled = false;
+if (keyboard_check_pressed(vk_space)) {
+	gettingCalled = true;
+	// TODO: Play whistle sound
+}
+
+// If the player is too far away or is calling you, run to player
+// (or if the player is moving and we are in the pausing/alert state)
+var closestPlayer = instance_nearest(x, y, objPlayer);
+if (gettingCalled || distance_to_object(closestPlayer) > leashRange || (pausing && (closestPlayer.hspeed != 0 || closestPlayer.vspeed != 0))) {
+	pointOfInterest = closestPlayer;
 	image_index = 0;
 	sniffing = false;
 	pausing = false;

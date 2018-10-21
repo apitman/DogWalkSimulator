@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "f939345d-102e-4400-bbb3-ae2adb57c9ff",
+            "Value": {
+                "id": "8ee29a55-44e6-46ea-8d68-de25feb76bcf",
+                "resourcePath": "sprites\\spriteDogSniffing\\spriteDogSniffing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fb05bffd-5557-42cd-b7e8-9c387b78a0f3",
             "Value": {
                 "id": "5efe92a6-c2eb-4fb9-948e-fca666e51468",

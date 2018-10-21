@@ -1,6 +1,7 @@
 /// @description Sniffing -> Pausing
 sniffing = false;
-image_index = 0;
+sprite_index = spriteDog;
+image_speed = walkAnimSpeed;
 
 pausing = true;
 alarm[0] = pauseTime;

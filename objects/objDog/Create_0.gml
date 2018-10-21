@@ -13,10 +13,12 @@ sniffing = false;
 pausing = true;
 gettingCalled = false;
 distractionChance = 0.2;
+walkAnimSpeed = 1;
+sniffAnimSpeed = 1;
 
 // Offsets used by objLeash
-leashOffsetX = 44;
-leashOffsetY = 40;
+leashOffsetX = 46;
+leashOffsetY = 38;
 
 // Alarm timers
 pauseTime = 30 * 0.5; // 0.5 seconds at 30 fps

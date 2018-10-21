@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3a82a0d4-73d4-4ef6-94db-615d5c24dfd2",
+            "Value": {
+                "id": "6a5959f9-ca65-4c20-9bc0-ff363350d860",
+                "resourcePath": "fonts\\fontLarge\\fontLarge.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "3d4e8f49-2e13-4941-a9e1-284fe8a4b86b",
             "Value": {
                 "id": "00de4c0d-4642-4cfe-a369-1f47043b79f0",
@@ -140,6 +148,14 @@
                 "id": "b7adbf74-7236-4ea3-824a-cbc40aa43bfd",
                 "resourcePath": "views\\48d4616b-946e-4800-99cc-022c26ece1ed.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "49bb44af-1238-4d66-acd9-95a96d7b0465",
+            "Value": {
+                "id": "732d7c95-65d4-4fab-8037-6fa899bcc083",
+                "resourcePath": "fonts\\fontSmall\\fontSmall.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -266,7 +282,7 @@
             "Key": "8ee1f3d1-abe7-414c-bf78-afd5b9ad0ed8",
             "Value": {
                 "id": "3cfa731a-d3c1-42f6-b290-1ab428fdccbd",
-                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourcePath": "fonts\\fontNormal\\fontNormal.yy",
                 "resourceType": "GMFont"
             }
         },

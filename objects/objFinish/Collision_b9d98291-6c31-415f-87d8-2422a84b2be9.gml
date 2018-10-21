@@ -1,5 +1,3 @@
-/// @description Run end of level code
+/// @description Set alarm to run end of level code
 
-if (room_exists(room_next(room))) {
-	room_goto_next();
-}
+alarm[0] = 30 * 0.1; // Run end of level code after 0.1 seconds at 30 fps

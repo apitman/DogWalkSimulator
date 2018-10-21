@@ -8,8 +8,10 @@ if (keyboard_check_pressed(ord("R"))) {
 	room_restart();
 }
 
-if (global.debugMode || room == room_first) {
-	if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(vk_enter)) {
+	if (room == room_last) {
+		game_end();
+	} else if (global.debugMode || room == room_first) {
 		room_goto_next();
 	}
 }

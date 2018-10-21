@@ -4,7 +4,7 @@
 if (keyboard_check_pressed(vk_space)) {
 	gettingCalled = true;
 	alarm[2] = obedientTime;
-	// TODO: Play whistle sound
+	audio_play_sound(soundWhistle, 1, false);
 }
 
 // If the leash is taught or the player is calling you, always run to player

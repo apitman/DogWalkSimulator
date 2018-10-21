@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "20480551-0914-4da6-b32f-559bb24e1a4c",
+            "Value": {
+                "id": "7f7a60db-dfdd-4180-a985-867bf1246a51",
+                "resourcePath": "objects\\objGarbageEaten\\objGarbageEaten.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22d749fc-0943-4a08-916f-c105bfd0ac5d",
             "Value": {
                 "id": "cd083554-1e20-4088-9d75-1d2aecfec6da",
@@ -111,10 +119,26 @@
             }
         },
         {
+            "Key": "57f09dbc-f1c4-439d-8aaf-b8c8beb5a93e",
+            "Value": {
+                "id": "f5355bef-6a2d-4782-a4c0-0515a6a14900",
+                "resourcePath": "sprites\\spriteTennisBall\\spriteTennisBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5af1037d-63c1-407c-b05d-bfc5ab04b249",
             "Value": {
                 "id": "cfea07ad-9c4d-499a-a59b-6966524d17b6",
                 "resourcePath": "sprites\\spriteHydrant\\spriteHydrant.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61ad614b-e71c-4f9c-a109-09aee9bd8c01",
+            "Value": {
+                "id": "82f837e9-bb99-41df-8203-376a93b35810",
+                "resourcePath": "sprites\\spriteGarbage\\spriteGarbage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -151,11 +175,35 @@
             }
         },
         {
+            "Key": "80ee082d-d713-49dc-b3c8-d499e450312c",
+            "Value": {
+                "id": "7b47cd0a-087a-4c15-bab8-27762b05a5d3",
+                "resourcePath": "objects\\objGarbage\\objGarbage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "836820bd-fcd2-4d46-ab62-eb0aed04568d",
+            "Value": {
+                "id": "b3fdcd90-a1bd-408e-9e35-36ef7f690a4c",
+                "resourcePath": "sprites\\spriteGarbageEaten\\spriteGarbageEaten.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86ff19d8-1c78-4b29-8eb7-690b4efd6148",
             "Value": {
                 "id": "b8ca62aa-1b76-4f64-980b-efc370689476",
                 "resourcePath": "views\\86ff19d8-1c78-4b29-8eb7-690b4efd6148.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87ec191e-ee37-4972-9178-8995f31cfbf2",
+            "Value": {
+                "id": "dd7c147b-3b84-4ad6-ba28-1e582e01cd1b",
+                "resourcePath": "objects\\objTennisBall\\objTennisBall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -212,6 +260,14 @@
                 "id": "cff976ad-65f6-400d-9464-fe4d10c7089f",
                 "resourcePath": "sprites\\spriteBackground\\spriteBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c18582a5-fce3-4919-b870-6fba3d9c62c3",
+            "Value": {
+                "id": "c35d642f-e8d6-41db-8693-4265fc69280f",
+                "resourcePath": "scripts\\scriptLevelGen\\scriptLevelGen.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -288,7 +344,7 @@
         }
     ],
     "script_order": [
-        
+        "c18582a5-fce3-4919-b870-6fba3d9c62c3"
     ],
     "tutorial": ""
 }

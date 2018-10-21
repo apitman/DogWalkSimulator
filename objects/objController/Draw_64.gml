@@ -8,6 +8,10 @@ if (room == roomMainMenu) {
 	scriptDrawMainMenu();
 }
 
+if (room == roomTutorial) {
+	scriptDrawTutorial();
+}
+
 if (room == roomEnd) {
 	scriptDrawGameOver();
 }

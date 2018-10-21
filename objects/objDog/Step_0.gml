@@ -86,9 +86,9 @@ if (!is_undefined(pointOfInterest)) {
 
 // Adjust leash offset based on sprite_index
 if (sprite_index == spriteDogSniffing) {
-	leashOffsetX = 52;
-	leashOffsetY = 50;
+	leashOffsetX = 98;
+	leashOffsetY = 94;
 } else {
-	leashOffsetX = 46;
-	leashOffsetY = 38;
+	leashOffsetX = 84;
+	leashOffsetY = 72;
 }

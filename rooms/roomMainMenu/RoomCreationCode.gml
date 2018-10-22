@@ -1,5 +1,5 @@
 
-global.debugMode = true; // TODO: Set this to false before submitting!
+global.debugMode = false; // TODO: Set this to false before submitting!
 
 // Initialize score and font stuff
 score = 0;
